@@ -1,0 +1,165 @@
+* {
+    background: #51ff0000;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+body{
+    background-image: url(/imagens/BackToFuture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.AluraLogo{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 7%;
+    background-image: url(/imagens/png-transparent-broken-glass-glass-fragmentation-broken-thumbnail-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+}
+
+.text-area{
+    padding-left: 40px;
+    background: #000000c2;
+    color: #01d841;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    border: none;
+    
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+
+main{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    color: #01d841;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #01d841;}
+    .textArea:focus{
+    outline: none;
+}
+
+.mensagem{
+ background: #000000c2;
+ background-image: url(/imagens/TextBackground.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ border: none;
+ border-radius: 30px;
+ color: #00ff4c ;
+
+ padding-left: 20px;
+
+}
+
+.mensagem:focus{
+outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+.btn-encriptar{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.btn-encriptar:hover
+ {background-color: #8a0202}
+.btn-encriptar:active {
+  background-color: #ff0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.btn-desencriptar{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.btn-desencriptar:hover
+ {background-color: #3e8e41}
+.btn-desencriptar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.informacao{
+    padding: 20px 10px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    background-image: url(/imagens/retro-sci-fi-background-futuristic-grid-landscape-of-the-1980-background-v_1508384jpg!w700wp.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-copiar{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2f00ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.btn-copiar:hover
+ {background-color: #2100b6}
+.btn-copiar:active {
+  background-color: #2100b6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
